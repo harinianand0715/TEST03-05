@@ -1,0 +1,72 @@
+@keyframes color {
+  
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 30px;
+  height: 400px;
+  width: 500px;
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.logo{
+position: absolute;
+margin-left: 15px;
+margin-bottom: 300px;
+border-radius: 50%;
+background-color: hsl(216, 12%, 54%);
+width: 40px;
+height: 40px;
+}
+
+svg{
+  padding:5px;
+}
+
+h3{
+  color: white;
+  font-size: 30px;
+}
+h4{
+  color: grey;
+  font-size: 15px;
+}
+#rating{
+  display: flex;
+  gap: 20px;
+ 
+
+}
+
+#one, #two, #three, #four, #five{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: hsl(216, 12%, 54%);
+  animation: color;
+  animation-play-state: paused;
+  color: white;
+}
+
+#submit{
+  margin-top: 20px;
+  margin-left: 80px;
+  height: 30px;
+  width: 80px;
+  border-radius: 10px;
+  background-color: hsl(25, 97%, 53%);
+  color: white
+}
